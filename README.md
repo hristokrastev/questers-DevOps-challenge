@@ -30,4 +30,31 @@ The following are to be hosted on a public git repository:
 - At least a sample of Infrastructure-As-Code (IAC) that would build a part of your solution. Please use either Terraform, Cloudformation, Azure Resource Manager, Bicep or Google Cloud Deployment Manager.
 
 
-Solution URL: https://app-dev-quest-linux.azurewebsites.net/
+================================================================================================================================
+
+
+# Usage
+
+Please follow the steps below marked with $ :
+
+For convenience I will add the variables.tf and terraform.tfvars as part of the repo.
+
+You can control the change of the region from the variables in the terraform.tfvars, add your credention as env. variable or other method that you prefer.
+
+like so:
+export ARM_CLIENT_ID="your appId is the client_id"
+export ARM_CLIENT_SECRET="your password is the client_secret"
+export ARM_SUBSCRIPTION_ID="your subscription is the subscription_id"
+export ARM_TENANT_ID="your tenant is the tenant_id"
+
+$ terraform init
+
+$ terraform plan -out quest.tfplan
+
+$ terraform apply "quest.tfplan"
+
+The solution contain a basic folder structure with some of the resources because the time constraint is 2 hours:
+
+It's also contains the example secure infrastructure in architecture/Sample-Architecture.jpg
+
+The URL of the living app is: https://app-dev-quest-linux.azurewebsites.net/
