@@ -42,6 +42,7 @@ For convenience I will add the variables.tf and terraform.tfvars as part of the 
 You can control the change of the region from the variables in the terraform.tfvars, add your credention as env. variable or other method that you prefer.
 
 like so:
+
 export ARM_CLIENT_ID="your appId is the client_id"
 export ARM_CLIENT_SECRET="your password is the client_secret"
 export ARM_SUBSCRIPTION_ID="your subscription is the subscription_id"
