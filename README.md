@@ -49,7 +49,7 @@ export ARM_CLIENT_SECRET="your password is the client_secret"
 
 export ARM_SUBSCRIPTION_ID="your subscription is the subscription_id"
 
-export ARM_TENANT_ID="your tenant is the tenant_id" \n
+export ARM_TENANT_ID="your tenant is the tenant_id"
 
 $ terraform init
 
