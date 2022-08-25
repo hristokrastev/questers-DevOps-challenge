@@ -43,9 +43,12 @@ You can control the change of the region from the variables in the terraform.tfv
 
 like so:
 
-export ARM_CLIENT_ID="your appId is the client_id" \n
-export ARM_CLIENT_SECRET="your password is the client_secret" \n
-export ARM_SUBSCRIPTION_ID="your subscription is the subscription_id" \n
+export ARM_CLIENT_ID="your appId is the client_id"
+
+export ARM_CLIENT_SECRET="your password is the client_secret"
+
+export ARM_SUBSCRIPTION_ID="your subscription is the subscription_id"
+
 export ARM_TENANT_ID="your tenant is the tenant_id" \n
 
 $ terraform init
