@@ -1,17 +1,16 @@
 # questers-DevOps-challenge
 This is the sample solution of the IaC with terraform and Azure provider
 
-Requirements: https://tpximpact.notion.site/Host-a-static-website-ef33fc48e8e8482eb089ef39835877ec
 
-Host a static website
+Host a website
 
 # Brief
 
-Describe and partly create a solution using Amazon Web Services (AWS), Microsoft Azure or Google Cloud Platform (GCP) that is able to host a static website that is accessible on the internet.
+Describe and partly create a solution using Amazon Web Services (AWS), Microsoft Azure or Google Cloud Platform (GCP) that is able to host a website that is accessible on the internet.
 
 You will need to show or be able to explain how it is secure, reliable, performant, optimised for cost and sustainable. In addition, you will be able to explain how the solution can support development and run workloads effectively, gain insight into their operation, and continuously improve supporting processes and procedures to deliver business value.
 
-The static website can as simple as the following HTML:
+The website can be as simple as the following HTML:
 
 ```bash
 <h1>Hello World</h1>
